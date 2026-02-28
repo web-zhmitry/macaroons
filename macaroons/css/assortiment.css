@@ -1,0 +1,91 @@
+/* контейнер */
+.assortment__container {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.slider {
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+/* главнй заголовок */
+.assortment__title {
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+/* отстутпы для слайдов */
+.assortiment__items .item {
+    margin: 70px 13px;
+}
+
+/* позоционирования картинок */
+.assortiment__items .item-img {
+    position: absolute;
+    top: -25%;
+    left: 13%;
+    transition: 0.5s ease;
+    width: 192px;
+    height: 118px;
+}
+
+/* ховер для картинок */
+.assortiment__items .item:hover img {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+/* настройки внутри слайда */
+.assortiment__items .item {
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid rgb(255 255 255);
+    /* принудительная ширина */
+    width: 263px !important;
+    padding: 89px 21px 27px;
+}
+
+/* заголовок внутри слайда */
+.assortiment__items .item-title {
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+}
+
+/* свойства цены*/
+.assortiment__items .item-price {
+    display: flex !important;
+    font-size: 15px;
+    font-family: "GilroyRegular", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.item-price__text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    gap: 20px;
+}
+
+/* кнопка */
+.assortiment__btn {
+    width: 130px;
+    height: 50px;
+}
+
+/* стрелки */
+.slick-next::before {
+    content: url(/images/next.png);
+}
+
+.slick-prev::before {
+    content: url(/images/prev.png);
+}
+
+/* поправка для новых картинок */
+.item-img_new {
+  top: -40% !important;
+  width: 230px !important;
+  left: 7% !important;
+}
