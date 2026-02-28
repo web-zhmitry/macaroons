@@ -76,11 +76,11 @@
 
 /* стрелки */
 .slick-next::before {
-    content: url(/images/next.png);
+    content: url(../images/next.png);
 }
 
 .slick-prev::before {
-    content: url(/images/prev.png);
+    content: url(../images/prev.png);
 }
 
 /* поправка для новых картинок */
@@ -88,4 +88,5 @@
   top: -40% !important;
   width: 230px !important;
   left: 7% !important;
+
 }
